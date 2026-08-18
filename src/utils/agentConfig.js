@@ -6,7 +6,7 @@ export const AGENT_CONFIG_MD5_HEADER = 'X-Agent-Config-Md5';
 export const MAX_TRAFFIC_CORRECTION_GB = 1000000;
 
 const ALLOWED_COLLECT_INTERVALS = new Set([0, 1, 2, 5, 10]);
-const ALLOWED_REPORT_INTERVALS = new Set([30, 60, 120, 180]);
+const ALLOWED_REPORT_INTERVALS = new Set([30, 60, 120, 180, 300, 600, 1800, 3600, 10800, 21600]);
 const PING_NODE_HOST_PATTERN = /^[a-zA-Z0-9._-]+$/;
 const IPV4_PATTERN = /^(?:\d{1,3}\.){3}\d{1,3}$/;
 const IPV4_LIKE_PATTERN = /^(?:\d+\.){3}\d+$/;
