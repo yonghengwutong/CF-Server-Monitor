@@ -113,6 +113,12 @@
             <option :value="60">60</option>
             <option :value="120">120</option>
             <option :value="180">180</option>
+            <option :value="300">300</option>
+            <option :value="600">600</option>
+            <option :value="1800">1800</option>
+            <option :value="3600">3600</option>
+            <option :value="10800">10800</option>
+            <option :value="21600">21600</option>
           </select>
         </div>
         <div class="form-group flex-1">
